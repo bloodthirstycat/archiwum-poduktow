@@ -1,11 +1,10 @@
 
-var game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.CANVAS, 'phaser-example', { create: create, render: render });
+var game = new Phaser.Game(180,130, Phaser.CANVAS, 'phaser-example', { create: create, render: render });
 
 function create() {
 
     game.stage.backgroundColor = '#454645';
-    game.stage.width = 100;
-    game.stage.height = 100;
+
 
     //  By default Phaser only starts 2 pointers (enough for 2 fingers at once)
 
