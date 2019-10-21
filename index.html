@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ExampleZero</title>
+    </script>
+  </head>
+  <body onload="onLoad()">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.19.0/phaser.js"></script>
+	<script>
+  
+    var game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.CANVAS, 'phaser-example', { create: create, render: render });
+
+    function create() {
+
+        game.stage.backgroundColor = '#454645';
+        game.stage.width = 100;
+        game.stage.height = 100;
+
+        //  By default Phaser only starts 2 pointers (enough for 2 fingers at once)
+
+        //  addPointer tells Phaser to add another pointer to Input, so here we are basically saying "allow up to 6 pointers + the mouse"
+
+        //  Note: on iOS as soon as you use 6 fingers you'll active the minimise app gesture - and there's nothing we can do to stop that, sorry
+
+        game.input.addPointer();
+        game.input.addPointer();
+        game.input.addPointer();
+        game.input.addPointer();
+
+    }
+
+    function render() {
+
+        //  Just renders out the pointer data when you touch the canvas
+        game.debug.pointer(game.input.mousePointer);
+        game.debug.pointer(game.input.pointer1);
+        game.debug.pointer(game.input.pointer2);
+        game.debug.pointer(game.input.pointer3);
+        game.debug.pointer(game.input.pointer4);
+        game.debug.pointer(game.input.pointer5);
+        game.debug.pointer(game.input.pointer6);
+
+    }
+
+  </script>
+	<canvas id="phaser-example"></canvas>
+  </body>
+</html>
