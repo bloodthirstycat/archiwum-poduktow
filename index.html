@@ -30,6 +30,7 @@
         $("#drop").droppable({ 
           drop: function(event, ui){
               alert("Dropped");
+              event.preventDefault()
           }
         })
       })
