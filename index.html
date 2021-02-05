@@ -15,33 +15,21 @@
 
     // Load the image model and setup the webcam
     async function init() {
+var photo = document.getElementById("photo");
+var image = null;
+var canvas = null;
+let reader = new FileReader();
+reader.addEventListener("load", function () {
+	image = new Image();
+	image.src = reader.result;
+	canvas = document.createElement("canvas");
+	ctx = canvas.getContext("2d");
+	ctx.drawImage(image,0,0,canvas.width,canvas.height)
+	document.body.appendChild(canvas);
+}, false);
 
-    var photo = document.getElementById("photo");
-    var image = null;
-    var canvas = null;
-    let reader = new FileReader();
-    var allowed_types = ["image/jpg","image/jpeg","image/png"]
-    reader.addEventListener("load", function () {
-        image = new Image();
-        image.src = reader.result;
-        canvas = document.createElement("canvas");
-        ctx = canvas.getContext("2d");
-        ctx.drawImage(image,0,0,canvas.width,canvas.height)
-        document.body.appendChild(canvas);
-    }, false);
-    if(photo != null){
-        if(photo.files != undefined){
-            if(allowed_types.indexOf(photo.files[0].type) != -1){
-                reader.readAsDataURL(photo.files[0]);
-            }else{
-                console.log(2);
-            }
-        }else{ 
-            console.log(1);
-        }
-    }else{
-        console.log(0);
-    }
+reader.readAsDataURL(photo.files[0]);
+
        
        
        // const modelURL = URL + "model.json";
