@@ -1,8 +1,8 @@
 <div>Teachable Machine Image Model</div>
 <input type="file" id="photo" accept=".png,.jpg">
 <button type="button" onclick="init()">Start</button>
-<div id="webcam-container"></div>
-<div id="label-container"></div>
+<canvas id="photo-preview"></canvas>
+<br /><br /><br />
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
@@ -13,10 +13,29 @@
 
     let model, webcam, labelContainer, maxPredictions;
 
+
     // Load the image model and setup the webcam
     async function init() {
-       photo = document.getElementById("photo")
-       console.log(photo.files[0]);
+        var image = null;
+        var canvas = null;
+        let reader = new FileReader();
+        var allowed_types = ["image/jpg","image/jpeg","image/png"]
+        reader.addEventListener("load", function () {
+            image = new Image();
+            image.src = reader.result;
+            canvas = document.createElement("canvas");
+            ctx = canvas.getContext("2d");
+            ctx.drawImage(image,0,0,canvas.width,canvas.height)
+            document.body.appendChild(canvas);
+        }, false);
+        if(photo != null){
+            if(photo.files != undefined){
+                if(allowed_types.indexOf(photo.files[0].type) != -1){
+                    reader.readAsDataURL(photo.files[0]);
+                }
+            }
+        }
+       
        
        // const modelURL = URL + "model.json";
        // const metadataURL = URL + "metadata.json";
