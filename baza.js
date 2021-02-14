@@ -2,7 +2,7 @@ var lista = [
 	{
 		id: 0,
 		nazwa: 'Lay\'s Kabanostrrre',
-		obrazek: '/img/Kabanostrrre-70112-big.jpg',
+		obrazek: 'Kabanostrrre-70112-big.jpg',
 		opis: 'Chipsy o smaku podwędzanego i dobrze przyprawionego kabanosa.',
 		sklad: 'Brak danych',
 		ean: 'Brak danych',
