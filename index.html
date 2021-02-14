@@ -6,16 +6,20 @@
 			body{
 				background-color: black;
 			}
-			#maintext{
-				margin-top: auto;
-				margin-bottom: auto;
-				color: #228B22;
-				text-align: center;
+			/* https://stackoverflow.com/questions/35636018/html-text-in-the-center-of-a-webpage */
+			.text-center {
+			    margin: 0;
+			    padding:0;
+			    text-align: center;
+			    position: absolute;
+			    top: 50%;
+			    left:50%;
+			    transform: translateX(-50%) translateY(-50%);
 			}
 		</style>
 	</head>
 	<body>
-		<div id="maintext">
+		<div class="text-center">
 			<h1>Witaj w Archiwum Produktów!</h1>
 			<h3>Jesteśmy bazą produktów, które już<br />
 				nie istnieją lub nie są sprzedawane w Polsce</h3>
