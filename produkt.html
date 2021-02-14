@@ -17,7 +17,9 @@
 		<script>
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
 				var produkt = znajdzProdukt(id_u);
-				console.log(produkt);
+				if(produkt == null){
+					document.location = '/archiwum-poduktow/baza.html'
+				}
 		</script>
 	</body>
 </html>
