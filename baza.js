@@ -1,18 +1,11 @@
 var lista = [
 	{
 		id: 0,
-		nazwa: 'Prince Polo',
-		obrazek: '/img/00.jpg',
-		opis: 'ble ble',
-		sklad: '',
-		ean: '123',
-	},
-	{
-		id: 1,
-		nazwa: 'Princessa',
-		obrazek: '/img/01.jpg',
-		opis: 'bla bla',
-		ean: '456',
+		nazwa: 'Lay\'s Kabanostrrre',
+		obrazek: '/img/Kabanostrrre-70112-big.jpg',
+		opis: 'Chipsy o smaku podwędzanego i dobrze przyprawionego kabanosa.',
+		sklad: 'Brak danych',
+		ean: 'Brak danych',
 	}
 ]
 

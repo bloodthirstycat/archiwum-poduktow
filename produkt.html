@@ -17,16 +17,22 @@
 				margin-right: -50%;
 				transform: translate(-50%, -50%) 
 			}
+			img{
+				height: auto; 
+				width: auto; 
+				max-width: 300px; 
+				max-height: 300px;
+			}
 		</style>
 		<script src="baza.js"></script>
 	</head>
 	<body>
 		<div class="produkt">
-			Nazwa: <br />
-			Opis: <br />
-			Skład: <br />
-			EAN: <br /><br />
-			<img src="https://via.placeholder.com/300"><br />
+			Nazwa: <span id="prod-nazwa"></span><br />
+			Opis:  <span id="prod-opis"></span><br />
+			Skład: <span id="prod-sklad"></span><br />
+			EAN:   <span id="prod-ean"></span><br /><br />
+			<img src="https://via.placeholder.com/300" id="prod-img"><br />
 		</div>
 		
 		<script>
@@ -35,6 +41,11 @@
 				if(produkt == null){
 					//document.location = '/archiwum-poduktow/baza.html'
 				}
+				document.getElementById("prod-nazwa").innerText = produkt.nazwa;
+				document.getElementById("prod-opis").innerText = produkt.opis;
+				document.getElementById("prod-sklad").innerText = produkt.sklad;
+				document.getElementById("prod-ean").innerText = produkt.ean;
+				document.getElementById("prod-img").src = produkt.obrazek;
 		</script>
 	</body>
 </html>
