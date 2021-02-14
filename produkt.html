@@ -10,15 +10,30 @@
 			h2{
 				text-align: center;	
 			}
+			.produkt{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-right: -50%;
+				transform: translate(-50%, -50%) 
+			}
 		</style>
 		<script src="baza.js"></script>
 	</head>
 	<body>
+		<div class="produkt">
+			Nazwa: <br />
+			Opis: <br />
+			Skład: <br />
+			EAN: <br /><br />
+			<img src="https://via.placeholder.com/300"><br />
+		</div>
+		
 		<script>
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
 				var produkt = znajdzProdukt(id_u);
 				if(produkt == null){
-					document.location = '/archiwum-poduktow/baza.html'
+					//document.location = '/archiwum-poduktow/baza.html'
 				}
 		</script>
 	</body>

@@ -4,6 +4,7 @@ var lista = [
 		nazwa: 'Prince Polo',
 		obrazek: '/img/00.jpg',
 		opis: 'ble ble',
+		sklad: '',
 		ean: '123',
 	},
 	{
