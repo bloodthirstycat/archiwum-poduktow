@@ -39,7 +39,7 @@
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
 				var produkt = znajdzProdukt(id_u);
 				if(produkt == null){
-					//document.location = '/archiwum-poduktow/baza.html'
+					document.location = '/archiwum-poduktow/baza.html'
 				}
 				document.getElementById("prod-nazwa").innerText = produkt.nazwa;
 				document.getElementById("prod-opis").innerText = produkt.opis;
