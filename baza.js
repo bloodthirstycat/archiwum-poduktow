@@ -110,6 +110,22 @@ var lista = [
 		opis: 'Chrupki ziemniaczane o smaku bekonu',
 		sklad: 'Brak informacji',
 		ean: '5905187801271'
+	},
+	{
+		id: 15,
+		nazwa: 'Chio Master Croc - Pizza',
+		obrazek: 'thumb_page_1602447854ShotType1_540x540_1_.jpg',
+		opis: 'Chrupki kukurydziane o smaku pizzy',
+		sklad: 'Kasza kukurydziana (67%), Olej słonecznikowy, Naturalny aromat (produkty mleczne ), Sól jadalna, Suszone pomidory, Ekstrakt drożdżowy, Suszona cebula, Cukier, Odtłuszczone mleko w proszku , Emulgator (mono- i diglicerydy kwasów tłuszczowych), Suszony czosnek, Pietruszka, Barwnik (ekstrakt z pieprzu), przyprawy, ekstrakty przypraw',
+		ean: 'Brak informacji'
+	},
+	{
+		id: 16,
+		nazwa: 'Chio Master Croc - Ser',
+		obrazek: 'thumb_page_1602447717ShotType1_540x540.jpg',
+		opis: 'Chrupki kukurydziane o smaku sera',
+		sklad: 'Kasza kukurydziana (68%), Olej słonecznikowy, Aromat, Sól spożywcza, Suszona słodka serwatka , Suszony ser (0,8%), Emulgator (mono- i diglicerydy kwasów tłuszczowych), Ekstrakt drożdżowy, Barwnik (ekstrakt z pieprzu), Suszony czosnek',
+		ean: 'Brak informacji'
 	}
 ]
 
