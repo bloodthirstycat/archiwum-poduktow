@@ -142,6 +142,14 @@ var lista = [
 		opis: 'Produkt garmażeryjny. Sterylizowany firmy Łowicz',
 		sklad: 'woda, kasza jęczmienna (25%), mięso wieprzowe (12%), cebula (11%), ogórki kiszone (3%), marchew (3%), papryka (2%), pieczarki, olej rzepakowy, skrobia kukurydziana modyfikowana, zioła, przyprawy aromatyczno-smakowe, koncentrat pomidorowy (1%), mąka pszenna (zawiera gluten), smalec wieprzowy, sól, cukier, aromaty, wzmacniacze smaku: guanylan disodowy, inozynian disodowy i glutaminian monosodowy, stabilizatory: trifosforany, białko zwierzęce, maltodekstryna, koncentrat białka sojowego, suszone warzywa (marchew, pietruszka, ziemniak płatek, cebula, por), suszone pieczarki, glukoza, laktoza z mleka, serwatka z mleka, soja, seler, suszony ekstrakt drożdżowy, suszone koncentraty warzywne (cebuli, marchwi, ogórka), suszone ekstrakty warzywne (pora, pietruszki), dekstroza, olej roślinny, tłuszcz wieprzowy, tłuszcz wieprzowy wędzony, skrobia modyfikowana tapiokowa, regulatory kwasowości: kwas cytrynowy i cytryniany sodu',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 19,
+		nazwa: 'DR.OETKER Pizza Rigga wiejska',
+		obrazek: '60042048.jpg',
+		opis: 'W Pizzy Rigga Wiejska aromatyczne kabanosy nadają charakterystyczny smak podkreślony dodatkowo ogórkiem konserwowym. Plasterek gotowanego jajka przyciąga wzrok i jest doskonałym dodatkiem swojskości. Całość tworzy niezwykle atrakcyjną i smakowitą pizzęo niezapomnianym smaku. Pizza Rigga Wiejska to jedyna taka pizza na rynku. Pizza Rigga Wiejska smakuje jak domowa.',
+		sklad: 'Mąka pszenna, woda, ser, tłuszcz roślinny, ogórki konserwowe, koncentrat pomidorowy, kabanos 4%, jajo gotowane, cukier, drożdże, sól, przyprawy, skrobia modyfikowana, aromaty.',
+		ean: 'Brak informacji'
 	}
 ]
 
