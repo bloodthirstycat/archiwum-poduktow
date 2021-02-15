@@ -102,6 +102,14 @@ var lista = [
 		opis: 'Chrupki o smaku zielonej cebulki',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 14,
+		nazwa: 'Chio Taccos',
+		obrazek: '00050400.jpg',
+		opis: 'Chrupki ziemniaczane o smaku bekonu',
+		sklad: 'Brak informacji',
+		ean: '5905187801271'
 	}
 ]
 
