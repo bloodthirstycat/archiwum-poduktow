@@ -62,6 +62,14 @@ var lista = [
 		opis: 'Napój Pepsi o smaku cappuccino',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 9,
+		nazwa: 'Mars Delight',
+		obrazek: '72275482.jpg',
+		opis: 'Chrupiący wafelek z kremem karmelowy, z nadzieniem kakaowym oblany mleczą czekoladą.',
+		sklad: 'cukier, tłuszcz roślinny, składniki mleczne (odtłuszczone mleko w proszku, tłuszcz mleczny, pełne mleko w proszku), tłuszcz kakaowy, mąka pszenna, laktoza, miazga kakaowa, maltodekstryna, serwatka w proszku, jęczmienny ekstrakt słodowy, cukier gronowy, emulgatory (lecytyna sojowa, E471), kakao o obniżonej zawartości tłuszczu, sól, aromat.',
+		ean: 'Brak informacji'
 	}
 ]
 
