@@ -94,6 +94,14 @@ var lista = [
 		opis: 'Napój gazowany na bazie naturalnej wody mineralnej w różnych smakach',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 13,
+		nazwa: 'Cheetos Piłki o smaku zielonej cebulki',
+		obrazek: 'ccecccb60e1e4fd305616df6949baedc.jpg',
+		opis: 'Chrupki o smaku zielonej cebulki',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
 	}
 ]
 
