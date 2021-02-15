@@ -44,7 +44,7 @@ var lista = [
 		nazwa: 'Mountain Dew Adrenaline',
 		obrazek: 'Adrenaline-64001-big.jpg',
 		opis: 'Mountain Dew Adrenaline zawiera specjalne składniki dostarczające energii Twojemu organizmowi, takie jak: naturalna kofeina, ekstrakt guarany i żeń-szeń. W jego skład wchodzą również aktywne dodatki (tauryna) oraz witaminy.',
-		sklad: 'woda, cukier, dwutlenek węgla, barwnik (E150d), aromat, w tym kofeina, kwasy (kwas fosforowy, kwas cytrynowy), regulator kwasowości (cytryniany sodu), substancja konserwująca (benzoesan sodu)',
+		sklad: 'Brak informacji',
 		ean: '5900497012461'
 	},
 	{
