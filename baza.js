@@ -126,6 +126,22 @@ var lista = [
 		opis: 'Chrupki kukurydziane o smaku sera',
 		sklad: 'Kasza kukurydziana (68%), Olej słonecznikowy, Aromat, Sól spożywcza, Suszona słodka serwatka , Suszony ser (0,8%), Emulgator (mono- i diglicerydy kwasów tłuszczowych), Ekstrakt drożdżowy, Barwnik (ekstrakt z pieprzu), Suszony czosnek',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 17,
+		nazwa: 'Knor Pizza',
+		obrazek: 'knorr-pizza.jpg',
+		opis: 'W zestawie: Ciasto do pizzy oraz Pomidorowy sos do pizzy z kompozycją ziół i przypraw',
+		sklad: 'ciasto do pizzy: mąka pszenna, olej roślinny, drożdże w proszku, cukeir, sól, białko jaja kurzego w proszku, substancje spulchaniające: lakton kwasu glukonowego i wodorowęglan sodu. Sos do pizzy: pomidory suszone, cukier, sól, substancja wzmacniająca smak i zapach: glutaminian sodu; skrobia modyfikowana, bazylia, cebula, tymianek, czosnek, olej roślinny, papryka słodka, aromaty, pieprz',
+		ean: 'Brak informacji'
+	},
+	{
+		id: 18,
+		nazwa: 'Łowicz Kociołek do syta (tradycyjny)',
+		obrazek: '00032524.jpg',
+		opis: 'Produkt garmażeryjny. Sterylizowany firmy Łowicz',
+		sklad: 'woda, kasza jęczmienna (25%), mięso wieprzowe (12%), cebula (11%), ogórki kiszone (3%), marchew (3%), papryka (2%), pieczarki, olej rzepakowy, skrobia kukurydziana modyfikowana, zioła, przyprawy aromatyczno-smakowe, koncentrat pomidorowy (1%), mąka pszenna (zawiera gluten), smalec wieprzowy, sól, cukier, aromaty, wzmacniacze smaku: guanylan disodowy, inozynian disodowy i glutaminian monosodowy, stabilizatory: trifosforany, białko zwierzęce, maltodekstryna, koncentrat białka sojowego, suszone warzywa (marchew, pietruszka, ziemniak płatek, cebula, por), suszone pieczarki, glukoza, laktoza z mleka, serwatka z mleka, soja, seler, suszony ekstrakt drożdżowy, suszone koncentraty warzywne (cebuli, marchwi, ogórka), suszone ekstrakty warzywne (pora, pietruszki), dekstroza, olej roślinny, tłuszcz wieprzowy, tłuszcz wieprzowy wędzony, skrobia modyfikowana tapiokowa, regulatory kwasowości: kwas cytrynowy i cytryniany sodu',
+		ean: 'Brak informacji'
 	}
 ]
 
