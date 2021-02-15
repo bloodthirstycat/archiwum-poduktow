@@ -37,10 +37,11 @@
 		
 		<script>
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
-				var produkt = znajdzProdukt(id_u)[0];
-				if(produkt == null){
+				var produkt_t = znajdzProdukt(id_u);
+				if(produkt_t == null){
 					document.location = '/archiwum-poduktow/baza.html'
 				}
+				var produkt = produkt_t[0];
 				document.getElementById("prod-nazwa").innerText = produkt.nazwa;
 				document.getElementById("prod-opis").innerText = produkt.opis;
 				document.getElementById("prod-sklad").innerText = produkt.sklad;
