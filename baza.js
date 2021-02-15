@@ -50,10 +50,10 @@ var lista = [
 	{
 		id: 7,
 		nazwa: 'Pepsi Gold',
-		obrazek: 'Ck_k9kuTURBXy9hZWNjODgxOS0xNTRkLTQ5NmItOTQ1OC05ODQwZjA1MjdlMTkuanBlZ5GTAs0EOACBAQI.jfif',
-		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006',
-		sklad: 'Brak informacji',
-		ean: 'Brak informacji'
+		obrazek: '50700L.jpg',
+		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006 (źródło zdjęcia: https://canmuseum.com/Detail.aspx?CanID=50700)',
+		sklad: 'Woda, cukier, dwutlenek węgla, aromat, regulatory kwasowości: kwas fosforowy, cytrynian sodu, Kwas: kwas cytrynowy, Aromat: kofeina (0.012g / 100ML rpduktu), Stabilizator: guma arabska, Barwnik: karmel E150d, Barwnik: żółcień pomarańczowa',
+		ean: '5900497444330'
 	}
 ]
 
