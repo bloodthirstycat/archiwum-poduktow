@@ -38,6 +38,22 @@ var lista = [
 		opis: 'Pepsi Twist Napój gazowany, który gasi pragnienie w ciepłe dni. Lekka cytrynowa nuta daje pełnię orzeźwienia.',
 		sklad: 'woda, cukier, dwutlenek węgla, barwnik (E150d), aromat, w tym kofeina, kwasy (kwas fosforowy, kwas cytrynowy), regulator kwasowości (cytryniany sodu), substancja konserwująca (benzoesan sodu)',
 		ean: 'Brak danych'
+	},
+	{
+		id: 6,
+		nazwa: 'Mountain Dew Adrenaline',
+		obrazek: 'Adrenaline-64001-big.jpg',
+		opis: 'Mountain Dew Adrenaline zawiera specjalne składniki dostarczające energii Twojemu organizmowi, takie jak: naturalna kofeina, ekstrakt guarany i żeń-szeń. W jego skład wchodzą również aktywne dodatki (tauryna) oraz witaminy.',
+		sklad: 'woda, cukier, dwutlenek węgla, barwnik (E150d), aromat, w tym kofeina, kwasy (kwas fosforowy, kwas cytrynowy), regulator kwasowości (cytryniany sodu), substancja konserwująca (benzoesan sodu)',
+		ean: '5900497012461'
+	},
+	{
+		id: 7,
+		nazwa: 'Pepsi Gold',
+		obrazek: 'Ck_k9kuTURBXy9hZWNjODgxOS0xNTRkLTQ5NmItOTQ1OC05ODQwZjA1MjdlMTkuanBlZ5GTAs0EOACBAQI.jfif',
+		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
 	}
 ]
 
