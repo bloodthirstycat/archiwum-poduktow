@@ -51,7 +51,7 @@ var lista = [
 		id: 7,
 		nazwa: 'Pepsi Gold',
 		obrazek: '50700L.jpg',
-		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006 (źródło zdjęcia: https://canmuseum.com/Detail.aspx?CanID=50700)',
+		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006 <br />(źródło zdjęcia: https://canmuseum.com/Detail.aspx?CanID=50700)',
 		sklad: 'Woda, cukier, dwutlenek węgla, aromat, regulatory kwasowości: kwas fosforowy, cytrynian sodu, Kwas: kwas cytrynowy, Aromat: kofeina (0.012g / 100ml produktu), Stabilizator: guma arabska, Barwnik: karmel E150d, Barwnik: żółcień pomarańczowa',
 		ean: '5900497444330'
 	},
@@ -69,6 +69,14 @@ var lista = [
 		obrazek: '72275482.jpg',
 		opis: 'Chrupiący wafelek z kremem karmelowy, z nadzieniem kakaowym oblany mleczą czekoladą.',
 		sklad: 'cukier, tłuszcz roślinny, składniki mleczne (odtłuszczone mleko w proszku, tłuszcz mleczny, pełne mleko w proszku), tłuszcz kakaowy, mąka pszenna, laktoza, miazga kakaowa, maltodekstryna, serwatka w proszku, jęczmienny ekstrakt słodowy, cukier gronowy, emulgatory (lecytyna sojowa, E471), kakao o obniżonej zawartości tłuszczu, sól, aromat.',
+		ean: 'Brak informacji'
+	},
+	{
+		id: 10,
+		nazwa: ' Crunchips Wow Grubo krojone chipsy ziemniaczane o smaku kremowego wasabi',
+		obrazek: 'crunchips-wow-grubo-krojone-chipsy-ziemniaczane-o-smaku-kremowego-wasabi-110-g.jpg',
+		opis: 'Crunchips Wow Grubo krojone chipsy ziemniaczane o smaku kremowego wasabi.<br />Źródło: https://leclercdrive.lublin.pl/chipsy-i-snacki/1060602332-crunchips-wow-grubo-krojone-chipsy-ziemniaczane-o-smaku-kremowego-wasabi-110-g-5905187117501.html',
+		sklad: 'ziemniaki, olej słonecznikowy (33%), sól, cukier, dekstroza,śmietanka w proszku,cebula w proszku,wasabi w proszku,aromat (zawiera produkty mleczne),ekstrakt drożdżowy,barwnik: kompleksy miedziowe chlorofili i chlorofilin',
 		ean: 'Brak informacji'
 	}
 ]
