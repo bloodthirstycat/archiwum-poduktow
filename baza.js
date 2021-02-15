@@ -161,7 +161,7 @@ var lista = [
 	},
 	{
 		id: 21,
-		nazwa: 'Sorella',
+		nazwa: 'Dżemy Sorella do wyciskania',
 		obrazek: 'sorella.png',
 		opis: 'Dżemy marki Sorella dla dzieci do wyciskania w różnych smakach (truskawka, brzoskwinia, porzeczka)',
 		sklad: 'Brak informacji',
