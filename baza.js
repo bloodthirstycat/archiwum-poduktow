@@ -78,6 +78,14 @@ var lista = [
 		opis: 'Crunchips Wow Grubo krojone chipsy ziemniaczane o smaku kremowego wasabi.<br />Źródło: https://leclercdrive.lublin.pl/chipsy-i-snacki/1060602332-crunchips-wow-grubo-krojone-chipsy-ziemniaczane-o-smaku-kremowego-wasabi-110-g-5905187117501.html',
 		sklad: 'ziemniaki, olej słonecznikowy (33%), sól, cukier, dekstroza,śmietanka w proszku,cebula w proszku,wasabi w proszku,aromat (zawiera produkty mleczne),ekstrakt drożdżowy,barwnik: kompleksy miedziowe chlorofili i chlorofilin',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 11,
+		nazwa: 'Princessa CarmeLove',
+		obrazek: '311_01_1212.jpg',
+		opis: 'To kruchy, okrągły wafelek z pysznym, ciągnącym się karmelem. Pogrzana na kubku z gorącym napojem smakuje jeszcze lepiej! To prawdziwa karmelowa przyjemność!',
+		sklad: 'Brak informacji',
+		ean: '7613032621230'
 	}
 ]
 
