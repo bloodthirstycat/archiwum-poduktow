@@ -52,7 +52,7 @@ var lista = [
 		nazwa: 'Pepsi Gold',
 		obrazek: '50700L.jpg',
 		opis: 'Napój stworzony z okazji mistrzostw świata w piłce nożnej w roku 2006 (źródło zdjęcia: https://canmuseum.com/Detail.aspx?CanID=50700)',
-		sklad: 'Woda, cukier, dwutlenek węgla, aromat, regulatory kwasowości: kwas fosforowy, cytrynian sodu, Kwas: kwas cytrynowy, Aromat: kofeina (0.012g / 100ML rpduktu), Stabilizator: guma arabska, Barwnik: karmel E150d, Barwnik: żółcień pomarańczowa',
+		sklad: 'Woda, cukier, dwutlenek węgla, aromat, regulatory kwasowości: kwas fosforowy, cytrynian sodu, Kwas: kwas cytrynowy, Aromat: kofeina (0.012g / 100ml produktu), Stabilizator: guma arabska, Barwnik: karmel E150d, Barwnik: żółcień pomarańczowa',
 		ean: '5900497444330'
 	}
 ]
