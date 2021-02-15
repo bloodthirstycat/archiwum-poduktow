@@ -10,13 +10,19 @@
 			h2{
 				text-align: center;	
 			}
+			a{
+				color: red;
+			}
+			a:visited{
+				color: pink;
+			}
 		</style>
 		<script src="baza.js"></script>
 	</head>
 	<body>
 		<div id="list">
         		<h2>Lista produktów</h2>
-        		<ul id="lista-produktow"></ul>
+			<h3><ul id="lista-produktow"></ul></h3>
 				<script>
 					var lista_produktow = document.getElementById("lista-produktow");
 					listujNazwy(lista_produktow);
