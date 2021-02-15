@@ -86,6 +86,14 @@ var lista = [
 		opis: 'To kruchy, okrągły wafelek z pysznym, ciągnącym się karmelem. Pogrzana na kubku z gorącym napojem smakuje jeszcze lepiej! To prawdziwa karmelowa przyjemność!',
 		sklad: 'Brak informacji',
 		ean: '7613032621230'
+	},
+	{
+		id: 12,
+		nazwa: 'Lift (różne smaki)',
+		obrazek: '263_01_2556.jpg',
+		opis: 'Napój gazowany na bazie naturalnej wody mineralnej w różnych smakach',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
 	}
 ]
 
