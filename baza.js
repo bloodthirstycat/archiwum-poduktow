@@ -6,6 +6,14 @@ var lista = [
 		opis: 'Chipsy o smaku podwędzanego i dobrze przyprawionego kabanosa.',
 		sklad: 'Brak danych',
 		ean: 'Brak danych',
+	},
+	{
+		id: 2,
+		nazwa: 'Snickers Cruncher',
+		obrazek: '76976897.jpg',
+		opis: 'Baton ze świeżo prażonymi orzeszkami ziemnymi i chrupkami ryżowymi w karmelu oblanymi mleczną czekoladą.',
+		sklad: 'cukier, orzeszki ziemne, mąka ryżowa, cukier inwertowany, tłuszzc roślinny, odtłuszczone mleko w proszku, tłuszcz kakaowy, miazga kakaowa, serwatka w proszku, syrop glukozowy, tłuszcz mleczny, substancja utrzymująca wilgotność (glicerol), laktoza, jęczmienny ekstrakt słodowy, sól, emulgatory (lecytyna sojowa, E471), cukier gronowy, aromat.',
+		ean: 'Brak danych',		
 	}
 ]
 
