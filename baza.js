@@ -150,6 +150,14 @@ var lista = [
 		opis: 'W Pizzy Rigga Wiejska aromatyczne kabanosy nadają charakterystyczny smak podkreślony dodatkowo ogórkiem konserwowym. Plasterek gotowanego jajka przyciąga wzrok i jest doskonałym dodatkiem swojskości. Całość tworzy niezwykle atrakcyjną i smakowitą pizzęo niezapomnianym smaku. Pizza Rigga Wiejska to jedyna taka pizza na rynku. Pizza Rigga Wiejska smakuje jak domowa.',
 		sklad: 'Mąka pszenna, woda, ser, tłuszcz roślinny, ogórki konserwowe, koncentrat pomidorowy, kabanos 4%, jajo gotowane, cukier, drożdże, sól, przyprawy, skrobia modyfikowana, aromaty.',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 20,
+		nazwa: 'DR.OETKER Paula Budyń o smaku czekoladowym w łaty waniliowe',
+		obrazek: '91755853.jpg',
+		opis: 'Dr. Oetker podbija serca łasuchów swoim nowym produktem - budyniem o smaku waniliowym w łatki, które mają smak czekoladowy. Porcja budyniu Paula to 100g doskonałego deseru pełnego mleka w praktycznym, podwójnym opakowaniu. Paula to idealny, mały, smaczny i pożywny posiłek. Polecany na drugie śniadnie do szkoły, czy przekąską w ciągu dnia intensywnej pracy. I zawsze wtedy, gdy masz ochotę na małe, mleczne co nie co.',
+		sklad: 'mleko (85%), syrop cukru inwertowanego, cukier, skrobia modyfikowana, odtłuszczone kakao (0,6%), odtłuszczone mleko w proszku, substancja zagęszczająca (karagen), sól, barwnik (beta-karoten), aromaty',
+		ean: '4023600002836'
 	}
 ]
 
