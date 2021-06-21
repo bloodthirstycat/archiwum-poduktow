@@ -174,6 +174,22 @@ var lista = [
 		opis: 'Danie meksykańskie z warzywami, ryżem i pikantną kiełbasą',
 		sklad: 'fasola czerwona 20%, kiełbasa wędzona wieprzowa 12%, ryż 10%, koncentrat pomidorowy 7%, cebula 7%, papryka 6%, woda, sól, olej roślinny, cukier, skrobia kukurydziana, naturalne zioła, przyprawy aromatyczno - smakowe, śladowe ilości glutaminianu sodu pochodzące z przypraw',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 22,
+		nazwa: "COCA COLA Light",
+		obrazek: '78321294.jpg',
+		opis: 'Napój gazowany słodzony aspartamem i acesulfamem K E-2. Bez cukru. Zawiera kofeinę.',
+		sklad: 'woda, dwutlenek węgla, karmel, substancje słodzące: cyklaminian sodu, acesulfam K, aspartam, kwas ortofosforowy, kwas cytrynowy, aromaty, kofeina, zawiera źródło fenyloalaniny',
+		ean: 'Brak informacji'
+	},
+	{
+		id: 24,
+		nazwa: "PEPSI MAX",
+		obrazek: '51581092.jpg',
+		opis: 'Niskokaloryczny napój gazowany. Zawiera substancje słodzące. Najlepiej podawać schłodzony.',
+		sklad: 'woda, dwutlenek węgla, barwnik: karmel E150d, substancja słodząca: aspartam, regulatory kwasowości: kwas fosforowy, cytrynian sodu, aromaty: w tym kofeina, kwas: kwas cytrynowy, substancja słodząca: acesulfam K. Zawiera źródło fenyloalaniny.',
+		ean: 'Brak informacji'		
 	}
 ]
 
