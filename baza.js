@@ -214,6 +214,14 @@ var lista = [
 		opis: 'Fasola z mięsem w sosie z warzywami. Polecamy podawać na gorąco z dodatkiem pieczywa. Produkt bez konserwantów.',
 		sklad: 'woda, fasola (45%), boczek z kiełbasą (8%), cebula (7,5%), koncentrat pomidorowy (7,2%), mąka pszenna (zawiera gluten), acetylowany adypinian diskrobiowy - zagęstnik, cukier, sól, papryka (0,11%), mieszanka przypraw, glutaminian sodu -substancja wzmacniająca smak, aromat',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 28,
+		nazwa: 'DR.OETKER Pizza Rigga serowa ',
+		obrazek: '91558218.jpg',
+		opis: 'Pizza serowa to nowość w ofercie będąca doskonałym uzupełnieniem popularnej linii. Ten wariant smakowy to prawdziwy rarytas przygotowany specjalnie z myślą o miłośnikach serowych wariacji. Nikt nie oprze się połączeniu różnych gatunków sera i widokowi dużych plastrów delikatnej mozzarelli. Pizza Rigga serowa smakuje jak domowa.',
+		sklad: 'mąka pszenna, woda, ser mozzarella, tłuszcz roślinny, ser edamski, pomidory, koncentrat pomidorowy, cukier, drożdże, sól, przyprawy, skrobia modyfikowana',
+		ean: 'Brak informacji'
 	}
 ]
 
