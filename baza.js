@@ -222,6 +222,14 @@ var lista = [
 		opis: 'Pizza serowa to nowość w ofercie będąca doskonałym uzupełnieniem popularnej linii. Ten wariant smakowy to prawdziwy rarytas przygotowany specjalnie z myślą o miłośnikach serowych wariacji. Nikt nie oprze się połączeniu różnych gatunków sera i widokowi dużych plastrów delikatnej mozzarelli. Pizza Rigga serowa smakuje jak domowa.',
 		sklad: 'mąka pszenna, woda, ser mozzarella, tłuszcz roślinny, ser edamski, pomidory, koncentrat pomidorowy, cukier, drożdże, sól, przyprawy, skrobia modyfikowana',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 29,
+		nazwa: 'AVIKO Knedle z truskawkami 500g',
+		obrazek: '54581138.jpg',
+		opis: 'Pyszne, delikatne ciasto, wypełnione kawałkami truskawek pozwala tworzyć urozmaicone dania z wieloma dodatkami: tradycyjnie ze śmietanką lub podane jako deser z lodami. Wykorzystanie tradycyjnych receptur sprawia, że smakują one jak knedle robione w domu i zachwycają smakiem nie tylko najmłodszych, ale także dorosłych. Gotowe już po 7 minutach od wypłynięcia na powierzchnię.',
+		sklad: 'Truskawki (18%), skrobia ziemniaczana (16%), płatki ziemniaczane (15%), cukier, zagęstnik: skrobia modyfikowana, mąka pszenna, sól, woda.',
+		ean: 'Brak informacji'
 	}
 ]
 
