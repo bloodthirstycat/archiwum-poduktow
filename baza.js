@@ -176,7 +176,7 @@ var lista = [
 		ean: 'Brak informacji'
 	},
 	{
-		id: 22,
+		id: 23,
 		nazwa: "COCA COLA Light",
 		obrazek: '78321294.jpg',
 		opis: 'Napój gazowany słodzony aspartamem i acesulfamem K E-2. Bez cukru. Zawiera kofeinę.',
