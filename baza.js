@@ -190,6 +190,22 @@ var lista = [
 		opis: 'Niskokaloryczny napój gazowany. Zawiera substancje słodzące. Najlepiej podawać schłodzony.',
 		sklad: 'woda, dwutlenek węgla, barwnik: karmel E150d, substancja słodząca: aspartam, regulatory kwasowości: kwas fosforowy, cytrynian sodu, aromaty: w tym kofeina, kwas: kwas cytrynowy, substancja słodząca: acesulfam K. Zawiera źródło fenyloalaniny.',
 		ean: 'Brak informacji'		
+	},
+	{
+		id: 25,
+		nazwa: "HELLMANNS Ketchup ognisty",
+		obrazek: '10469294.jpg',
+		opis: 'Ketchup ognisty - bardzo pikantny ketchup ze świeżych pomidorów, bez konserwantów.',
+		sklad: 'koncentrat pomidorowy (63%), cukier, woda, ocet, skrobia modyfikowana, sól, pieprz cayenne, cebula, czosnek, pieprz czarny, liść laurowy.',
+		ean: 'Brak informacji'		
+	},
+	{
+		id: 26,
+		nazwa: "HELLMANNS Ketchup Sicilia",
+		obrazek: '53085079.jpg',
+		opis: 'Ketchup z dodatkiem czosnku i pietruszki.',
+		skład: 'koncentrat pomidorowy, woda, cukier, ocet, skrobia modyfikowana, sól, czosnek, cebula, pieprz czarny, aromaty, natka pietruszki',
+		ean: 'Brak informacji'		
 	}
 ]
 
