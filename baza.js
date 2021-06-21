@@ -206,6 +206,14 @@ var lista = [
 		opis: 'Ketchup z dodatkiem czosnku i pietruszki.',
 		sklad: 'koncentrat pomidorowy, woda, cukier, ocet, skrobia modyfikowana, sól, czosnek, cebula, pieprz czarny, aromaty, natka pietruszki.',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 27,
+		nazwa: 'Fasola po bretońsku z kiełbasą i boczkiem',
+		obrazek: '17583956.jpg',
+		opis: 'Fasola z mięsem w sosie z warzywami. Polecamy podawać na gorąco z dodatkiem pieczywa. Produkt bez konserwantów.',
+		sklad: 'woda, fasola (45%), boczek z kiełbasą (8%), cebula (7,5%), koncentrat pomidorowy (7,2%), mąka pszenna (zawiera gluten), acetylowany adypinian diskrobiowy - zagęstnik, cukier, sól, papryka (0,11%), mieszanka przypraw, glutaminian sodu -substancja wzmacniająca smak, aromat',
+		ean: 'Brak informacji'
 	}
 ]
 
