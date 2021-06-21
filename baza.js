@@ -204,8 +204,8 @@ var lista = [
 		nazwa: "HELLMANNS Ketchup Sicilia",
 		obrazek: '53085079.jpg',
 		opis: 'Ketchup z dodatkiem czosnku i pietruszki.',
-		sklad: 'koncentrat pomidorowy, woda, cukier, ocet, skrobia modyfikowana, sól, czosnek, cebula, pieprz czarny, aromaty, natka pietruszki',
-		ean: 'Brak informacji'		
+		sklad: 'koncentrat pomidorowy, woda, cukier, ocet, skrobia modyfikowana, sól, czosnek, cebula, pieprz czarny, aromaty, natka pietruszki.',
+		ean: 'Brak informacji'
 	}
 ]
 
