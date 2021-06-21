@@ -166,6 +166,14 @@ var lista = [
 		opis: 'Dżemy marki Sorella dla dzieci do wyciskania w różnych smakach (truskawka, brzoskwinia, porzeczka)',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 22,
+		nazwa: "ŁOWICZ Kociołek do syta Danie meksykańskie z warzywami, ryżem i pikantną kiełbasą",
+		obrazek: '66389645.jpg',
+		opis: 'Danie meksykańskie z warzywami, ryżem i pikantną kiełbasą',
+		sklad: 'fasola czerwona 20%, kiełbasa wędzona wieprzowa 12%, ryż 10%, koncentrat pomidorowy 7%, cebula 7%, papryka 6%, woda, sól, olej roślinny, cukier, skrobia kukurydziana, naturalne zioła, przyprawy aromatyczno - smakowe, śladowe ilości glutaminianu sodu pochodzące z przypraw',
+		ean: 'Brak informacji'
 	}
 ]
 
