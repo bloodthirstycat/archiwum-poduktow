@@ -230,6 +230,14 @@ var lista = [
 		opis: 'Pyszne, delikatne ciasto, wypełnione kawałkami truskawek pozwala tworzyć urozmaicone dania z wieloma dodatkami: tradycyjnie ze śmietanką lub podane jako deser z lodami. Wykorzystanie tradycyjnych receptur sprawia, że smakują one jak knedle robione w domu i zachwycają smakiem nie tylko najmłodszych, ale także dorosłych. Gotowe już po 7 minutach od wypłynięcia na powierzchnię.',
 		sklad: 'Truskawki (18%), skrobia ziemniaczana (16%), płatki ziemniaczane (15%), cukier, zagęstnik: skrobia modyfikowana, mąka pszenna, sól, woda.',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 30,
+		nazwa: 'KOTLIN Ketchup mexican',
+		obrazek: '28457287.jpg',
+		opis: 'Sztandarowym produktem firmy Kotlin jest ketchup. Na potrzeby jego produkcji w zakładzie znajdują się dwie linie produkcyjne: jedna przeznaczona do produkcji ketchupu w plastikowej butelce, druga - do produkcji ketchupu w opakowaniach szklanych. Ketchup Kotlin produkujemy z dużej ilości starannie wyselekcjonowanych, dojrzewających w słońcu pomidorów i oryginalnych dodatków.',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
 	}
 ]
 
