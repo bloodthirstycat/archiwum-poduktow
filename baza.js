@@ -254,6 +254,14 @@ var lista = [
 		opis: 'Grubo ciachane chipsy ziemniaczane o smaku sera i cebuli',
 		sklad: 'Brak informacji',
 		ean: '5900259027993'
+	},
+	{
+		id: 33,
+		nazwa: 'winiary Galaretka o smaku Mojito',
+		obrazek: 'galaretka-o-smaku-mojito-winiary.jpg',
+		opis: 'Galaertka o smaku Moijto',
+		sklad: 'aromaty, błękit brylantowy FCF (E 133), cukier. koncentrat krokosza, kwas cytrynowy (E 330). żelatyna wieprzowa (E 441)',
+		ean: 'Brak informacji'
 	}
 ]
 
