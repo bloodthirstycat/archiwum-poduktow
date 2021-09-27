@@ -44,7 +44,7 @@
 			<a href="https://bloodthirstycat.github.io/archiwum-poduktow/baza.html" class="btn btn-success btn-lg"> Powrót</a>
 		</div>
 		</section>
-		
+		<section>
 		<script>
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
 				var produkt_t = znajdzProdukt(id_u);
@@ -58,5 +58,12 @@
 				document.getElementById("prod-ean").innerHTML = produkt.ean;
 				document.getElementById("prod-img").src = '/archiwum-poduktow/img/' + produkt.obrazek;
 		</script>
+		</section>
+		<section>
+			<ul class="pager">
+  			<li class="previous"><a href="#">Previous</a></li>
+  			<li class="next"><a href="#">Next</a></li>
+			</ul>
+		</section>
 	</body>
 </html>
