@@ -246,6 +246,14 @@ var lista = [
 		opis: 'Fantazyjne połączenie klasycznych winogron, jabłek i orzeźwiającej limonki - doskonałe nawet na największe upały.',
 		sklad: 'woda, soki owocowe z soków zagęszczonych z: winogron (9%), jabłek (9%), limonek (2%), cukier, regulator kwasowości - kwas cytrynowy, aromaty',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 32,
+		nazwa: 'Star Chips grubo ciachane ser i cebula',
+		obrazek: '00030338.jpg',
+		opis: 'Grubo ciachane chipsy ziemniaczane o smaku sera i cebuli',
+		sklad: 'Brak informacji',
+		ean: '5900259027993'
 	}
 ]
 
