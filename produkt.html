@@ -1,27 +1,38 @@
 <html>
 	<head>
+		<!-- stuff do odpalenia Bootstrapa --->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+		<!--- koniec stuffu --->
+		<!-- czcionkę chcę i już! -->
+		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+		<link rel="preconnect" href="https://fonts.gstatic.com/"crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+		<!-- już --->
 		<meta charset="UTF-8">
-		<title>Archiwum Produktów</title>
+		<title>Archiwum Produktów - Bloodthirsty Cat</title>
 		<style>
 			body{
-				background-color: black;
+				background-color: #000000;
 				color: #00FF00;
-			}
-			h2{
-				text-align: center;	
-			}
-			img{
-			  display: block;
-			  max-width:300px;
-			  max-height:300px;
-			  width: auto;
-			  height: auto;
-			}
+				h3 {
+					font-family: 'Gemunu Libre';
+				}
+				.footera{
+				  position: fixed;
+				  left: 0;
+				  bottom: 0;
+				  width: 100%;
+				  text-align: center;	
+			     }
 		</style>
 		<script src="baza.js"></script>
 	</head>
 	<body>
-		<center>
+		
+	<section>
+			<div class="container-fluid text-center"
 			<h1>Informacje o produkcie</h1>
 			<h3>
 			Nazwa: <span id="prod-nazwa"></span><br />
@@ -31,7 +42,7 @@
 			<img src="https://via.placeholder.com/300" id="prod-img"><br />
 			<br /><h3>
 			<a href="https://bloodthirstycat.github.io/archiwum-poduktow/baza.html">Powrót</a></h3>
-		</center>
+		</section>
 		
 		<script>
 				var id_u = parseInt(document.URL.substring(document.URL.lastIndexOf('=') + 1));
