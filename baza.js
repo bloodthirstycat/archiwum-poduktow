@@ -238,6 +238,14 @@ var lista = [
 		opis: 'Sztandarowym produktem firmy Kotlin jest ketchup. Na potrzeby jego produkcji w zakładzie znajdują się dwie linie produkcyjne: jedna przeznaczona do produkcji ketchupu w plastikowej butelce, druga - do produkcji ketchupu w opakowaniach szklanych. Ketchup Kotlin produkujemy z dużej ilości starannie wyselekcjonowanych, dojrzewających w słońcu pomidorów i oryginalnych dodatków.',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 31,
+		nazwa: 'Hortex Fresz się owocami Winogrona jabłko limonka',
+		obrazek: 'hortex-fresz-sie-owocami-winogrona-jablko-limonka-napoj-1-l-o75fcd.webp',
+		opis: 'Fantazyjne połączenie klasycznych winogron, jabłek i orzeźwiającej limonki - doskonałe nawet na największe upały.',
+		sklad: 'woda, soki owocowe z soków zagęszczonych z: winogron (9%), jabłek (9%), limonek (2%), cukier, regulator kwasowości - kwas cytrynowy, aromaty',
+		ean: 'Brak informacji'
 	}
 ]
 
