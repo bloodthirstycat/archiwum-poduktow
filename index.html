@@ -57,7 +57,9 @@
 					var min = getMinMax()[0];
 					var max = getMinMax()[1];
 					for(i=0;i<4;i++){
-						var produkt = znajdzProdukt(Math.floor(Math.random() * (max - min)) + min)[0]
+						var produkt = znajdzProdukt(Math.floor(Math.random() * (max - min)) + min);
+						if(produkt == null) continue;
+						produkt = produkt[0];
 						var carousel = document.getElementsByClassName("carousel-inner")[0]
 						var newP = document.createElement('div');
 						newP.classList.add('carousel-item');
