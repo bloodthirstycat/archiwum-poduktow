@@ -18,12 +18,10 @@
 			body{
 				background-color: #000000;
 				color: #00FF00;
+			}
 				h3 {
 					font-family: 'Gemunu Libre';
 				}
-			.carousel-inner > .item > img {
-			  margin: 0 auto;
-			}
 		</style>
 	</head>
 	<body>
@@ -77,8 +75,8 @@
 						var img = document.createElement('img');
 						img.src = '/archiwum-poduktow/img/' + produkt.obrazek;
 						img.alt = produkt.nazwa;
-						img.classList.add("center-block");
-						img.classList.add('w-25');
+						img.classList.add("img-fluid");
+						//img.classList.add('w-25');
 						link.appendChild(img);
 						newA.appendChild(link);
 						newP.appendChild(link);
