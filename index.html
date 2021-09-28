@@ -10,6 +10,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com/"crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
 		<!-- już --->
+		<script src="baza.js"></script>
 		<meta charset="UTF-8">
 		<title>Archiwum Produktów - Bloodthirsty Cat</title>
 		<style>
@@ -58,7 +59,15 @@
 				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
-				</div>	
+			      </div>
+		              <script>
+				 var products = [];
+				 var min = getMinMax()[0];
+				 var max = getMinMax()[1];
+				 for(i=0; i < 3; i++){
+				     products[] = znajdzProdukt(Math.floor(Math.random() * (max - min)) + min)
+				 }
+		              </script>
 	<section style="text-align: center;">
 			<footer class="text-center text-white fixed-bottom" style="background-color: #333333;">
   			<div class="text-center p-3"></div>
