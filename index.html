@@ -21,11 +21,6 @@
 				h3 {
 					font-family: 'Gemunu Libre';
 				}
-				img
-				{
-   					width: 50%;
-  				        margin: auto;
-				}
 		</style>
 	</head>
 	<body>
@@ -71,6 +66,9 @@
 						if(i == 0){
 							newP.classList.add('active');
 						}
+						var newA = document.createElement('div');
+						newA.classList.add('d-flex');
+						newA.classList.add('justify-content-center'); 
 						var link = document.createElement('a');
 						link.href = '/archiwum-poduktow/produkt.html?id=' + produkt.id;
 						var img = document.createElement('img');
@@ -79,6 +77,7 @@
 						img.classList.add('d-block');
 						img.classList.add('w-25');
 						link.appendChild(img);
+						newA.appendChild(link);
 						newP.appendChild(link);
 						carousel.appendChild(newP);				     
 					} 
