@@ -257,11 +257,19 @@ var lista = [
 	},
 	{
 		id: 33,
-		nazwa: 'winiary Galaretka o smaku Mojito',
+		nazwa: 'Winiary Galaretka o smaku Mojito',
 		obrazek: 'galaretka-o-smaku-mojito-winiary.jpg',
-		opis: 'Galaertka o smaku Moijto',
+		opis: 'Galaretka o smaku Moijto',
 		sklad: 'aromaty, błękit brylantowy FCF (E 133), cukier. koncentrat krokosza, kwas cytrynowy (E 330). żelatyna wieprzowa (E 441)',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 34,
+		nazwa: 'KIRI Przekąska Serek + paluszki 3 szt.',
+		obrazek: '102157.jpg',
+		opis: 'KIRI Przekąska Serek + paluszki 3 szt. Ser topiony z twarogu i śmietanki z paluszkami chlebowymi. Pudełko zawiera 3 opakowania Kiri.',
+		sklad: 'Paluszki chlebowe (28,6%): mogą zawierać sezam. Ser topiony (71,4%): twaróg z mleka (37%), woda, śmietanka z mleka (23%), białka mleka, sole emulgujące: E452, E341, E330, sól. Paluszki chlebowe (28,6%): mąka pszenna, olej słonecznikowy, słód jęczmienny, sól, drożdże Min. 63% tłuszczu w suchej masie sera topionego',
+		ean: '3073781081312'
 	}
 ]
 
