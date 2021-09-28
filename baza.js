@@ -276,6 +276,12 @@ function listujNazwy(elem){
 	});
 }
 
+function getMinMax(){
+	var min = 0
+	var max = lista.length - 1;
+	return [min,max];
+}
+
 function znajdzProdukt(id){
 	var pid = parseInt(id);
 	if(isNaN(id) || id < 0) return null;
