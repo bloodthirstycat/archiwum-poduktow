@@ -70,7 +70,7 @@
 						if(i == 0){
 							newP.classList.add('active');
 						}
-						var newA = document.createElement('center');
+						var newA = document.createElement('div');
 						//newA.classList.add('d-flex');
 						//newA.classList.add('justify-content-center'); 
 						var link = document.createElement('a');
@@ -78,7 +78,7 @@
 						var img = document.createElement('img');
 						img.src = '/archiwum-poduktow/img/' + produkt.obrazek;
 						img.alt = produkt.nazwa;
-						img.classList.add('d-block');
+						img.classList.add("center-block");
 						img.classList.add('w-25');
 						link.appendChild(img);
 						newA.appendChild(link);
