@@ -65,9 +65,9 @@
 						link.href = '/archiwum-poduktow/produkt.html?id=' + produkt.id;
 						var img = document.createElement('img');
 						img.src = '/archiwum-poduktow/img/' + produkt.obrazek;
-						img.alt = "Dupa";
+						img.alt = produkt.nazwa;
 						img.classList.add('d-block');
-						img.classList.add('w-100');
+						img.classList.add('w-25');
 						link.appendChild(img);
 						newP.appendChild(link);
 						carousel.appendChild(newP);				     
