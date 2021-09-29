@@ -184,14 +184,6 @@ var lista = [
 		ean: 'Brak informacji'
 	},
 	{
-		id: 24,
-		nazwa: "PEPSI MAX",
-		obrazek: '51581092.jpg',
-		opis: 'Niskokaloryczny napój gazowany. Zawiera substancje słodzące. Najlepiej podawać schłodzony.',
-		sklad: 'woda, dwutlenek węgla, barwnik: karmel E150d, substancja słodząca: aspartam, regulatory kwasowości: kwas fosforowy, cytrynian sodu, aromaty: w tym kofeina, kwas: kwas cytrynowy, substancja słodząca: acesulfam K. Zawiera źródło fenyloalaniny.',
-		ean: 'Brak informacji'		
-	},
-	{
 		id: 25,
 		nazwa: "HELLMANNS Ketchup ognisty",
 		obrazek: '10469294.jpg',
@@ -262,14 +254,6 @@ var lista = [
 		opis: 'Galaretka o smaku Moijto',
 		sklad: 'aromaty, błękit brylantowy FCF (E 133), cukier. koncentrat krokosza, kwas cytrynowy (E 330). żelatyna wieprzowa (E 441)',
 		ean: 'Brak informacji'
-	},
-	{
-		id: 34,
-		nazwa: 'KIRI Przekąska Serek + paluszki 3 szt.',
-		obrazek: '102157.jpg',
-		opis: 'KIRI Przekąska Serek + paluszki 3 szt. Ser topiony z twarogu i śmietanki z paluszkami chlebowymi. Pudełko zawiera 3 opakowania Kiri.',
-		sklad: 'Paluszki chlebowe (28,6%): mogą zawierać sezam. Ser topiony (71,4%): twaróg z mleka (37%), woda, śmietanka z mleka (23%), białka mleka, sole emulgujące: E452, E341, E330, sól. Paluszki chlebowe (28,6%): mąka pszenna, olej słonecznikowy, słód jęczmienny, sól, drożdże Min. 63% tłuszczu w suchej masie sera topionego',
-		ean: '3073781081312'
 	}
 ]
 
