@@ -4,7 +4,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
   		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.5/JsBarcode.all.min.js"></script>
 		<!--- koniec stuffu --->
 		<!-- czcionkę chcę i już! -->
 		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
@@ -54,9 +53,7 @@
 				<b>Nazwa:</b> <span id="prod-nazwa"></span><br />
 				<b>Opis:</b>  <span id="prod-opis"></span><br />
 				<b>Skład:</b> <span id="prod-sklad"></span><br />
-				<b>EAN:</b></h3><br />
-		    		<img id="barcode"/>
-				<br /><br />
+				<b>EAN:</b><span id="prod-ean"></span><br /><br /></h3>
 				<div class="col-sm-3"></div> <!-- trzeba mieć jakieś marginesy i cele w życiu --->
 			</div>	
 			<div class="col-sm-4"></div> <!-- trzeba mieć jakieś marginesy i cele w życiu --->
@@ -80,7 +77,7 @@
 				document.getElementById("prod-nazwa").innerHTML = produkt.nazwa;
 				document.getElementById("prod-opis").innerHTML = produkt.opis;
 				document.getElementById("prod-sklad").innerHTML = produkt.sklad;
-				JsBarcode("#barcode", produkt.ean);
+				document.getElementById("prod-ean").innerHTML = produkt.ean;
 				document.getElementById("prod-img").src = '/archiwum-poduktow/img/' + produkt.obrazek;
 				var pv = (id_u - 1)
 				var pn = (id_u + 1)
