@@ -257,9 +257,17 @@ var lista = [
 	},
 	{
 		id: 34,
-		nazwa: 'Batonik MilkyWay Minute czekoladowy -',
+		nazwa: 'Batonik MilkyWay Minute czekoladowy',
 		obrazek: 'mwminute.jpg',
 		opis: 'Ciasteczko z kremem mlecznym, truskawkami i mleczną czekoladą.',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
+	},
+	{
+		id: 35,
+		nazwa: 'Batonik MilkyWay Truskawkowy',
+		obrazek: 'mwtruskawka.jpg',
+		opis: 'Milky Way - marka batonu czekoladowego. W sprzedaży w Polsce są batoniki Milky Way z nadzieniem o smaku truskawkowym i mlecznym.',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
 	}
