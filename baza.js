@@ -272,7 +272,7 @@ var lista = [
 		ean: 'Brak informacji'
 	},
 	{
-		id: 35,
+		id: 36,
 		nazwa: 'Danone CHOCHO',
 		obrazek: '420_01_7771.jpg',
 		opis: 'CHOCHO to nowy wyjątkowo orzechowy deser mleczno-czekoladowy. Czy uwielbiasz smak mlecznej czekolady? A może jeszcze bardziej odpowiada Ci, gdy czekoladowy smak podkręcony jest orzechami? I być może lubisz wszystko, co ma dwie warstwy? Jeżeli Twoja odpowiedź na wszystkie trzy pytania jest twierdząca, to nowe wyjątkowo orzechowe CHOCHO jest stworzone dla Ciebie! Przekonaj się sam. ',
