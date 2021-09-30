@@ -278,6 +278,14 @@ var lista = [
 		opis: 'CHOCHO to nowy wyjątkowo orzechowy deser mleczno-czekoladowy. Czy uwielbiasz smak mlecznej czekolady? A może jeszcze bardziej odpowiada Ci, gdy czekoladowy smak podkręcony jest orzechami? I być może lubisz wszystko, co ma dwie warstwy? Jeżeli Twoja odpowiedź na wszystkie trzy pytania jest twierdząca, to nowe wyjątkowo orzechowe CHOCHO jest stworzone dla Ciebie! Przekonaj się sam. ',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 37,
+		nazwa: 'Bakoma Satino deser Panna Cotta z sosem karmelowym',
+		obrazek: '420_01_7771.jpg',
+		opis: 'Deser Panna Cotta z sosem karmelowym',
+		sklad: 'śmietanka , sos smakowy 14,5% [syrop karmelowy 35% (cukier inwertowany, mleko w proszku, cukier, masło), cukier, syrop glukozowo-fruktozowy, stabilizatory: skrobia modyfikowana, pektyna, guma ksantanowa; karmel, aromat] , cukier , żelatyna , aromat , kultury mleczne',
+		ean: '5900197018978'
 	}
 ]
 
