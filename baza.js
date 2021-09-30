@@ -254,6 +254,14 @@ var lista = [
 		opis: 'Galaretka o smaku Moijto',
 		sklad: 'aromaty, błękit brylantowy FCF (E 133), cukier. koncentrat krokosza, kwas cytrynowy (E 330). żelatyna wieprzowa (E 441)',
 		ean: 'Brak informacji'
+	},
+	{
+		id: 34,
+		nazwa: 'Batonik MilkyWay Minute czekoladowy -',
+		obrazek: 'mwminute.jpg',
+		opis: 'Ciasteczko z kremem mlecznym, truskawkami i mleczną czekoladą.',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji'
 	}
 ]
 
