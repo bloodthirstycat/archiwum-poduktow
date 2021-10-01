@@ -355,7 +355,7 @@ function listujKategorie(elem){
 			}
 			var h_elem = document.createElement("h3");
 			h_elem.innerText = kat
-			var div_elem = document.createElement("h3");
+			var div_elem = document.createElement("div");
 			div_elem.id = 'kat' + id;
 			var p_elem = document.createElement("p");
 			p_elem.innerText = 'TEST'
