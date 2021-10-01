@@ -198,7 +198,7 @@ var lista = [
 		opis: 'Dżemy marki Sorella dla dzieci do wyciskania w różnych smakach (truskawka, brzoskwinia, porzeczka)',
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji',
-		kategoria: 10
+		kategoria: 4
 	},
 	{
 		id: 22,
