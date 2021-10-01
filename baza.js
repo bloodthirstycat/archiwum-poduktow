@@ -1,3 +1,13 @@
+/*
+ * Kategorie
+ * 1 - Przekąski słone
+ * 2 - Słodycze
+ * 3 - Napoje gazowane
+ * 4 - Napoje niegazowane
+ * 5 - Dania gotowe 
+ * 6 - Dania do przyrządzenia (w proszku)
+ */
+ 
 var lista = [
 	{
 		id: 1,
