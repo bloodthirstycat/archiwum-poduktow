@@ -27,27 +27,16 @@
 		<div id="list">
         		<h2>Lista produktów</h2>
 				<h3><ul id="lista-produktow"></ul></h3>
-				<div id="accordion">
-				  <h3>Section 1</h3>
-				  <div>
-					<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-				  </div>
-				  <h3>BlaBla</h3>
-				  <div>
-					<hr>
-				  </div>				  
-				  <h3>BleBle</h3>
-				  <div>
-					<p>cos</p>
-				  </div>
-				</div>				
+				<div id="kategorie"></div>				
 				<script>
 					var lista_produktow = document.getElementById("lista-produktow");
+					var lista_kategorii = document.getElementById("kategorie");
+					listujKategorie(lista_kategorii);
 					listujNazwy(lista_produktow);
 					$( "#accordion" ).accordion({
 					  collapsible: true
 					});
-
+ 
 				</script>
 				<h2><a href="/archiwum-poduktow/">Powrót</a></h2>
 		</div>
