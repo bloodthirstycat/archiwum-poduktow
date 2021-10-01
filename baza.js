@@ -348,6 +348,23 @@ function listujNazwy(elem){
 	});
 }
 
+function listujKategorie(elem){
+		kategorie.forEach(function(id,kat){
+			if(kat == undefined){
+				return
+			}
+			var h_elem = document.createElement("h3");
+			h_elem.innerText = kat
+			var div_elem = document.createElement("h3");
+			div_elem.id = 'kat' + id;
+			var p_elem = document.createElement("p");
+			p.innerText = 'TEST'
+			div_elem.appendChild(p);
+			elem.appendChild(h_elem);
+			elem.appendChild(div_elem);
+		})
+}
+
 function getMinMax(){
 	var min = 0
 	var max = lista.length - 1;
