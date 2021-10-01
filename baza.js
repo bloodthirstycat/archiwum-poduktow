@@ -359,7 +359,7 @@ function listujKategorie(elem){
 			div_elem.id = 'kat' + id;
 			var p_elem = document.createElement("p");
 			p.innerText = 'TEST'
-			div_elem.appendChild(p);
+			div_elem.appendChild(p_elem);
 			elem.appendChild(h_elem);
 			elem.appendChild(div_elem);
 		})
