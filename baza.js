@@ -1,14 +1,14 @@
 var kategorie = Array();
- kategorie[1] = "Słodycze"
- kategorie[2] = "Napoje"
- kategorie[3] = "Przekąski"
- kategorie[4] = "Produkty śniadaniowe"
- kategorie[5] = "Dania gotowe (w tym te w proszku)"
- kategorie[6] = "Przyprawy i sosy"
- kategorie[7] = "Lody i mrożonki"
- kategorie[8] = "Soki i syropy"
- kategorie[9] = "Nabiał"
- kategorie[10] = "Inne"
+kategorie[1] = "Słodycze"
+kategorie[2] = "Napoje"
+kategorie[3] = "Przekąski"
+kategorie[4] = "Produkty śniadaniowe"
+kategorie[5] = "Dania gotowe (w tym te w proszku)"
+kategorie[6] = "Przyprawy i sosy"
+kategorie[7] = "Lody i mrożonki"
+kategorie[8] = "Soki i syropy"
+kategorie[9] = "Nabiał"
+kategorie[10] = "Inne"
  
 var lista = [
 	{
