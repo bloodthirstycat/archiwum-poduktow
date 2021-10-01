@@ -346,6 +346,9 @@ function listujNazwy(elem){
 		li_elem.appendChild(a_elem);
 		elem.appendChild(li_elem);
 	});
+	$( "#accordion" ).accordion({
+	  collapsible: true
+	});
 }
 
 function getMinMax(){
