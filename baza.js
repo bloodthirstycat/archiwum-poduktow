@@ -349,7 +349,7 @@ function listujNazwy(elem){
 }
 
 function listujKategorie(elem){
-		kategorie.forEach(function(id,kat){
+		kategorie.forEach(function(kat,id){
 			if(kat == undefined){
 				return
 			}
