@@ -348,7 +348,7 @@ function listujNazwy(elem){
 	});
 }
 
-function listujNazwyA(elem){
+function listujNazwyA(){
 	lista.forEach(function(x){
 		var katEl = document.getElementById('kat' + x.kategoria);
 		var li_elem = document.createElement("li");
