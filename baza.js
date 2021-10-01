@@ -1,11 +1,13 @@
 /*
  * Kategorie
- * 1 - Przekąski słone
- * 2 - Słodycze
- * 3 - Napoje gazowane
- * 4 - Napoje niegazowane
- * 5 - Dania gotowe 
- * 6 - Dania do przyrządzenia (w proszku)
+ * 1. Słodycze
+ * 2. Napoje
+ * 3. Przekąski
+ * 4. Produkty śniadaniowe
+ * 5. Dania gotowe (w tym te w proszku)
+ * 6. Przyprawy i sosy
+ * 7. Lody i mrożonki
+ * 8. Soki i syropy
  */
  
 var lista = [
