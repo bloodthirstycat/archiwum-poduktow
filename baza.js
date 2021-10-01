@@ -348,6 +348,18 @@ function listujNazwy(elem){
 	});
 }
 
+function listujNazwyA(elem){
+	lista.forEach(function(x){
+		var katEl = document.getElementById('kat' + x.kategoria);
+		var li_elem = document.createElement("li");
+		var a_elem = document.createElement("a");
+		a_elem.href = '/archiwum-poduktow/produkt.html?id=' + x.id;
+		a_elem.innerText = x.nazwa;
+		li_elem.appendChild(a_elem);
+		katEl.appendChild(li_elem);
+	});
+}
+
 function listujKategorie(elem){
 		kategorie.forEach(function(kat,id){
 			if(kat == undefined){
@@ -356,10 +368,9 @@ function listujKategorie(elem){
 			var h_elem = document.createElement("h3");
 			h_elem.innerText = kat
 			var div_elem = document.createElement("div");
-			div_elem.id = 'kat' + id;
-			var p_elem = document.createElement("p");
-			p_elem.innerText = 'TEST'
-			div_elem.appendChild(p_elem);
+			var ul_elem = document.createElement("ul");
+			ul_elem.id = 'kat' + id;
+			div_elem.appendChild(ul_elem);
 			elem.appendChild(h_elem);
 			elem.appendChild(div_elem);
 		})
