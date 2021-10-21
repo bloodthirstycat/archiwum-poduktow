@@ -297,7 +297,7 @@ var lista = [
 		opis: 'Galaretka o smaku Moijto',
 		sklad: 'aromaty, błękit brylantowy FCF (E 133), cukier. koncentrat krokosza, kwas cytrynowy (E 330). żelatyna wieprzowa (E 441)',
 		ean: 'Brak informacji',
-		kategoria: 10
+		kategoria: 5
 	},
 	{
 		id: 34,
