@@ -334,6 +334,15 @@ var lista = [
 		sklad: 'śmietanka , sos smakowy 14,5% [syrop karmelowy 35% (cukier inwertowany, mleko w proszku, cukier, masło), cukier, syrop glukozowo-fruktozowy, stabilizatory: skrobia modyfikowana, pektyna, guma ksantanowa; karmel, aromat] , cukier , żelatyna , aromat , kultury mleczne',
 		ean: '5900197018978',
 		kategoria: 9
+	},
+	{
+		id: 38,
+		nazwa: 'Fisiel - marchewka / brzoskwinia',
+		obrazek: 'i-delecta-kisiel-fisiel-marchewka-brzoskwnia-33g.jpg',
+		opis: 'Kisiel o smaku marchewkowo-brzoskwiniowym',
+		sklad: 'Brak informacji',
+		ean: '5900983000958',
+		kategoria: 9
 	}
 ]
 
