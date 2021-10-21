@@ -342,7 +342,7 @@ var lista = [
 		opis: 'Kisiel o smaku marchewkowo-brzoskwiniowym',
 		sklad: 'Brak informacji',
 		ean: '5900983000958',
-		kategoria: 9
+		kategoria: 5
 	}
 ]
 
