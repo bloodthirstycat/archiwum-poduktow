@@ -343,6 +343,15 @@ var lista = [
 		sklad: 'Brak informacji',
 		ean: '5900983000958',
 		kategoria: 5
+	},
+	{
+		id: 39,
+		nazwa: 'Knorr Fix Chrupery z kurczaka z dipem serowym',
+		obrazek: 'knorr-fix-chrupery-z-kurczaka-z-dipem-serowym-50-g.jpg',
+		opis: 'Chrupery z kurczaka z dipem serowym Wyjątkowa panierka, która nada twojemu kurczakowi smak i chrupkość. Dopełnieniem dania jest sos serowy. Skrzydełka kurczaka to nie lada przysmak. Delikatne mięso, zamknięte w chrupiącej skórce. Wiem, jak trudno jest czasem je przygotować tak, aby z jednej strony skórka była chrupiąca, a z drugiej mięso soczyste. Właśnie, dlatego stworzyłem Fix Chrupery z kurczaka z dipem serowym. Doskonała kompozycja przypraw pozwala na przygotowanie idealnego kurczaka, którego smak świetnie komponuje się z dipem serowym.',
+		sklad: 'Brak informacji',
+		ean: 'Brak informacji',
+		kategoria: 5
 	}
 ]
 
