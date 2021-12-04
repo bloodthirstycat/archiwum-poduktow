@@ -9,6 +9,7 @@ kategorie[7] = "Lody i mrożonki"
 kategorie[8] = "Soki i syropy"
 kategorie[9] = "Nabiał"
 kategorie[10] = "Inne"
+kategorie[10] = "KitKat - Recenzje BadOmena"
  
 var lista = [
 	{
