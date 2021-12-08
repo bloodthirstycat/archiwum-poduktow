@@ -9,7 +9,7 @@ kategorie[7] = "Lody i mrożonki"
 kategorie[8] = "Soki i syropy"
 kategorie[9] = "Nabiał"
 kategorie[10] = "Inne"
-kategorie[10] = "KitKat - Recenzje BadOmena"
+kategorie[10] = "Recenzje BadOmena"
  
 var lista = [
 	{
@@ -19,7 +19,7 @@ var lista = [
 		opis: 'Chipsy o smaku podwędzanego i dobrze przyprawionego kabanosa.',
 		sklad: 'Brak danych',
 		ean: 'Brak danych',
-		kategoria: 3
+		kategoria: [3,10]
 	},
 	{
 		id: 2,
@@ -369,7 +369,13 @@ function listujNazwy(elem){
 
 function listujNazwyA(){
 	lista.forEach(function(x){
+		if(Array.isArray(x.kategoria)){
+			x.kategoria.forEach(function(z){
+				var katEl = document.getElementById('kat' + z);
+			})
+		}else{
 		var katEl = document.getElementById('kat' + x.kategoria);
+		}
 		var li_elem = document.createElement("li");
 		var a_elem = document.createElement("a");
 		a_elem.href = '/archiwum-poduktow/produkt.html?id=' + x.id;
