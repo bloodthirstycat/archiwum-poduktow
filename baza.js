@@ -19,7 +19,7 @@ var lista = [
 		opis: 'Chipsy o smaku podwędzanego i dobrze przyprawionego kabanosa.',
 		sklad: 'Brak danych',
 		ean: 'Brak danych',
-		kategoria: [3,10]
+		kategoria: 3
 	},
 	{
 		id: 2,
