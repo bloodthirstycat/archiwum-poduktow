@@ -54,7 +54,8 @@
 				<b>Nazwa:</b> <span id="prod-nazwa"></span><br />
 				<b>Opis:</b>  <span id="prod-opis"></span><br />
 				<b>Skład:</b> <span id="prod-sklad"></span><br />
-				<b>EAN: </b><span id="prod-ean"></span><br /><br /></h3>
+				<b>EAN: </b><span id="prod-ean"></span><br /><br /><div id="badomen"></div></h3>
+				 <!-- Ale to już sam sobie sformatuj :) --->
 				<div class="col-sm-3"></div> <!-- trzeba mieć jakieś marginesy i cele w życiu :) --->
 			</div>	
 			<div class="col-sm-4"></div> <!-- trzeba mieć jakieś marginesy i cele w życiu --->
@@ -80,6 +81,11 @@
 				document.getElementById("prod-sklad").innerHTML = produkt.sklad;
 				document.getElementById("prod-ean").innerHTML = produkt.ean;
 				document.getElementById("prod-img").src = '/archiwum-poduktow/img/' + produkt.obrazek;
+				if(produkt.recenzja != undefined){
+				 var recenzja = document.createElement("div")
+				 recenzja.innerHTML = "<b>Recenzja: </b><span id='recenzja-badomen>" + produkt.recenzja + "</span><br />";
+				 document.getElementById("badomen").innerHTML
+				}
 				var pv = (id_u - 1)
 				var pn = (id_u + 1)
 				document.getElementById("prev").href = '/archiwum-poduktow/produkt.html?id=' + pv;
