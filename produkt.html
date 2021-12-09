@@ -81,6 +81,8 @@
 				document.getElementById("prod-ean").innerHTML = produkt.ean;
 				document.getElementById("prod-img").src = '/archiwum-poduktow/img/' + produkt.obrazek;
 				if(produkt.recenzja != undefined){
+				 cosole.log("OK");
+				 cosole.log(produkt.recenzja);
 				 document.getElementById("badomen").innerHTML = "<b>Recenzja: </b><span id='recenzja-badomen>" + produkt.recenzja + "</span><br />";
 				}
 				var pv = (id_u - 1)
