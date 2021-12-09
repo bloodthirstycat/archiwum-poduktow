@@ -366,7 +366,7 @@ var lista = [
 	{
 		id: 41,
 		nazwa: 'Twix Ginger Cookie',
-		obrazek: '9122138.png',
+		obrazek: '9122139.png',
 		opis: 'Baton o smaku ciastek z imbirem',
 		sklad: 'Ciasteczka (26%) o smaku imbirowym z przyprawami i karmelem (32%) oblane mleczną czekoladą (35%). Składniki: cukier, syrop  glukozowy, mąka pszenna (16%), tłuszcz palmowy, odtłuszczone mleko w proszku, tłuszcz kakaowy, miazga kakaowa, tłuszcz mleczny, laktoza, permeat serwatki (z mleka), mieszanka przypraw (cynamon, kolendra, goździki, gałka muszkatołowa, imbir, kardamon), kakao o obniżonej zawartości tłuszczu, sól, emulgator (lecytyna sojowa), substancja spulchniająca (E500), skórka pomarańczowa, ekstrakt wanilii (Może zawierać orzech laksowy, migdał, jęczmień, owies)',
 		ean: '5000159512459',
