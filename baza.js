@@ -353,6 +353,24 @@ var lista = [
 		sklad: 'Brak informacji',
 		ean: 'Brak informacji',
 		kategoria: 5
+	},
+	{
+		id: 40,
+		nazwa: 'Kitkat Chunky - Salted Carmel Popcorn',
+		obrazek: '9122138.png',
+		opis: 'Paluszek waflowy pokryty kremem o smaku solonego karmelu i popcornu, z soloną i prażoną kukurydzą (2,1%) w mlecznej czekoladzie (59%). Mleczna czekolada oprócz tłuszczu kakaowego zawiera tłuszcze roślinne.',
+		sklad: 'cukier, odtłuszczone mleko w proszku, tłuszcze roślinne (palmowy,shea), mąka przenna, miazga kakaowa 1, tłuszcz kakaowy 1, preparat serwatkowy w proszku (z mleka), tłuszcz mleczny, solona i prażona kukurydza 2,1 % (kukurydza, olej słonecznikowy, sól, przeciwutleniacz, (ekstrakty z rozmarynu)), kakao w proszku o obniżonej zawartości tłuszczu 1, emulgator (lecytyny), masło (z mleka), substancja spulchniająca (węglany sodu), naturalne aromaty, sól, barwnik (ekstrakt z papryki). Może zawierać orzechy ziemne i orzechy.',
+		ean: '3800020472712',
+		kategoria: [1,10]
+	},
+	{
+		id: 41,
+		nazwa: 'Twix Ginger Cookie',
+		obrazek: '9122138.png',
+		opis: 'Baton o smaku ciastek z imbirem',
+		sklad: 'Ciasteczka (26%) o smaku imbirowym z przyprawami i karmelem (32%) oblane mleczną czekoladą (35%). Składniki: cukier, syrop  glukozowy, mąka pszenna (16%), tłuszcz palmowy, odtłuszczone mleko w proszku, tłuszcz kakaowy, miazga kakaowa, tłuszcz mleczny, laktoza, permeat serwatki (z mleka), mieszanka przypraw (cynamon, kolendra, goździki, gałka muszkatołowa, imbir, kardamon), kakao o obniżonej zawartości tłuszczu, sól, emulgator (lecytyna sojowa), substancja spulchniająca (E500), skórka pomarańczowa, ekstrakt wanilii (Może zawierać orzech laksowy, migdał, jęczmień, owies)',
+		ean: '5000159512459',
+		kategoria: [1,10]
 	}
 ]
 
