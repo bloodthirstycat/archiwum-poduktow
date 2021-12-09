@@ -83,7 +83,7 @@
 				if(produkt.recenzja != undefined){
 				 var recenzja = document.createElement("div")
 				 recenzja.innerHTML = "<b>Recenzja: </b><span id='recenzja-badomen>" + produkt.recenzja + "</span><br />";
-				 document.getElementById("badomen").innerHTML = recenzja;
+				 document.getElementById("badomen").appendChild(recenzja);
 				}
 				var pv = (id_u - 1)
 				var pn = (id_u + 1)
