@@ -9,7 +9,8 @@ kategorie[7] = "Lody i mrożonki"
 kategorie[8] = "Soki i syropy"
 kategorie[9] = "Nabiał"
 kategorie[10] = "Inne"
-kategorie[10] = "Recenzje BadOmena"
+kategorie[11] = "Recenzje BadOmena"
+kategorie[12] = "Limitowane"
  
 var lista = [
 	{
@@ -131,7 +132,7 @@ var lista = [
 	},
 	{
 		id: 14,
-		nazwa: 'Chio Taccos',
+		nazwa: 'Chio Taccos (original)',
 		obrazek: '00050400.jpg',
 		opis: 'Chrupki ziemniaczane o smaku bekonu',
 		sklad: 'Brak informacji',
@@ -362,7 +363,7 @@ var lista = [
 		sklad: 'cukier, odtłuszczone mleko w proszku, tłuszcze roślinne (palmowy,shea), mąka przenna, miazga kakaowa 1, tłuszcz kakaowy 1, preparat serwatkowy w proszku (z mleka), tłuszcz mleczny, solona i prażona kukurydza 2,1 % (kukurydza, olej słonecznikowy, sól, przeciwutleniacz, (ekstrakty z rozmarynu)), kakao w proszku o obniżonej zawartości tłuszczu 1, emulgator (lecytyny), masło (z mleka), substancja spulchniająca (węglany sodu), naturalne aromaty, sól, barwnik (ekstrakt z papryki). Może zawierać orzechy ziemne i orzechy.',
 		ean: '3800020472712',
 		recenzja: 'Nestle ostatnio rozpieszcza nasz kraj jeśli chodzi o limitowane smaki batonów Kit Kat. Tym razem mamy wariant o smaku popcornu z dodatkiem słonego karmelu. <br />Połączenie dość intrygujące, bo jak połączyć smak popcornu z wafelkiem? <br />Udało się w połowie. Z jednej strony smak słonego karmelu fajnie łączy się z smakiem (stanowczo zbyt przesłodzonej) mlecznej czekolady, ale popcorn tu nie pasuje. Nie polecam tego smaku dla osób o słabych(osłabionych) zębach, gdyż kawałki prażonej kukurydzy są dość twarde. Mówiąc krótko nie podszedł mi ten wariant smakowy, więc nie zajmie wysokiej pozycji w moim rankingu "kitkatowym"<br /><b>Podsumowanie:<br />Jeśli uwielbiasz smak kit kata i popcornu ten wariant powienien ci smakować, jednak mi nie podpasował, producent mógł ten smak odpuścić.<br />Skład: Tu producent się nie popisał - ocenę zaniża długi skład, oraz w szczególności olej palmowy i shea. Duża ilość cukru 45,8g/100g<br /><br />SMAK: 5/10<br />SKŁAD: 5/10<br />Ocena końcowa 4/10</b>',
-		kategoria: [1,10]
+		kategoria: [1,11,12]
 	},
 	{
 		id: 41,
@@ -372,7 +373,7 @@ var lista = [
 		sklad: 'Ciasteczka (26%) o smaku imbirowym z przyprawami i karmelem (32%) oblane mleczną czekoladą (35%). Składniki: cukier, syrop  glukozowy, mąka pszenna (16%), tłuszcz palmowy, odtłuszczone mleko w proszku, tłuszcz kakaowy, miazga kakaowa, tłuszcz mleczny, laktoza, permeat serwatki (z mleka), mieszanka przypraw (cynamon, kolendra, goździki, gałka muszkatołowa, imbir, kardamon), kakao o obniżonej zawartości tłuszczu, sól, emulgator (lecytyna sojowa), substancja spulchniająca (E500), skórka pomarańczowa, ekstrakt wanilii (Może zawierać orzech laksowy, migdał, jęczmień, owies)',
 		ean: '5000159512459',
 		recenzja: 'Batony TWIX cieszą się w Polsce dużą popularnością, jednakże ciężko kupić w Polsce inne odmiany tego batona poza klasycznym i białym. Bardzo ucieszy fanów fakt, że na czas Świąt Bożego Narodzenia producent MARS wypuścił jedną z rzadko spotykanych limitowanych edycji - Twix O smaku ciasteczka piernikowego (a raczej korzennego). O ile ciężko sobie wyobrazić połączenie karmelu z takim ciasteczkiem, muszę stwierdzić, że to się naprawdę udało! Moim zdaniem ta edycja przebija smakiem klasycznego Twixa. Mleczna czekolada jest jak zawsze smaczna, karmel jest "klasyczny", a główna zmiana to ciasteczko które tym razem zawiera aromatyczne przyprawy, dzięki czemu zawdzięcza korzenny smak. <br /><b>Podsumowanie: Jeśli jesteś fanem ciasteczek korzennych i TWIXa to ten produkt naprawdę ci się spodoba, w przeciwnym wypadku można sobie odpuścić ten wariant smakowy. <br /> Każdy produkt ma jednak ma wady: tu niestety jak w każdych słodyczach - skład - nie jest najgorszy z najgorszych, ale mógł być lepszy. <br />Obecność syropu glukozowego, tłuszczu palmowego i innych drobnych zbędnych dodatków nie pozwalają mi dać maksymalnej oceny końcowej. Uwaga: duża ilość cukru: 49g/100g<br /><br />SMAK: 10/10<br />Skład: 7/10<br />Ocena końcowa: 9/10<br /><br />Ocena końcowa nie jest średnią - w słodyczach najważniejszy jest smak, bo zwykle skład i tak nie jest dobry.</b>',
-		kategoria: [1,10]
+		kategoria: [1,11,12]
 	}
 ]
 
