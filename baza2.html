@@ -12,6 +12,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
 		<!-- już --->
+        	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="baza.js"></script>
 		<meta charset="UTF-8">
 		<title>Archiwum Produktów - Bloodthirsty Cat</title>
@@ -30,47 +31,21 @@
   <h1>Baza danych Archiwum Produktów</h1>
 </div>
 				<br /><br />
-				
-				<div id="accordion">
-
-  <div class="card">
-    <div class="card-header">
-      <a class="card-link" data-toggle="collapse" href="#collapseOne">
-        Collapsible Group Item #1
-      </a>
-    </div>
-    <div id="collapseOne" class="collapse show" data-parent="#accordion">
-      <div class="card-body">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-        Collapsible Group Item #2
-      </a>
-    </div>
-    <div id="collapseTwo" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-        Collapsible Group Item #3
-      </a>
-    </div>
-    <div id="collapseThree" class="collapse" data-parent="#accordion">
-      <div class="card-body">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
+		<div id="list">
+				<!-- <h3><ul id="lista-produktow"></ul></h3> -->
+				<div id="kategorie"></div>				
+				<script>
+					//var lista_produktow = document.getElementById("lista-produktow");
+					var lista_kategorii = document.getElementById("kategorie");
+					listujKategorie(lista_kategorii);
+					//listujNazwy(lista_produktow);
+					listujNazwyA();
+					$("#kategorie").accordion({
+					  collapsible: true
+					});
+				</script>
+				<h2><a href="/archiwum-poduktow/">Powrót</a></h2>
+		</div>
 
 </div>
 				
