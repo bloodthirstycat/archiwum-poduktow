@@ -3,6 +3,7 @@
 		<!-- stuff do odpalenia Bootstrapa --->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
         	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="baza.js"></script>
   		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,13 +37,18 @@
 				<!-- <h3><ul id="lista-produktow"></ul></h3> -->
 				<div id="kategorie"></div>				
 				<script>
+				       var icons = {
+					   header: "ui-icon-circle-arrow-e",
+					   activeHeader: "ui-icon-circle-arrow-s"
+					};
 					//var lista_produktow = document.getElementById("lista-produktow");
 					var lista_kategorii = document.getElementById("kategorie");
 					listujKategorie(lista_kategorii);
 					//listujNazwy(lista_produktow);
 					listujNazwyA();
 					$("#kategorie").accordion({
-					  collapsible: true
+					  collapsible: true,
+					  icons: icons
 					});
 				</script>
 				<a href="/archiwum-poduktow/">Powrót</a>
