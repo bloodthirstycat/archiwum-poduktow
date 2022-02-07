@@ -383,7 +383,36 @@ var lista = [
 		sklad: 'Składniki: Czekolada mleczna 50 % (Cukier, Tłuszcz kakaowy, Mleko pełne w proszku, Miazga kakaowa, Serwatka w proszku (z mleka), Tłuszcz mleczny, Emulgatory: lecytyny sojowe i E 476, Aromat), Cukier, Mleko zagęszczone słodzone, Syrop glukozowy, Spirytus (2,3 %), Tłuszcz roślinny (palmowy), Mleko pełne w proszku, Serwatka w proszku (z mleka), Substancja utrzymująca wilgoć (inwertaza), Barwnik (E 150d), Emulgator (lecytyny sojowe), Naturalny aromat cynamonowy, Aromat naturalny, Przyprawa piernikowa 0,01 % (Cynamon, Goździki, Kolendra, Gałka muszkatołowa, Imbir, Kardamon, Pieprz czarny). Czekolada mleczna: masa kakaowa minimum 29 %, masa mleczna minimum 14 %. Może zawierać orzeszki arachidowe, orzechy, zboża (gluten), jaja. Produkt zawiera alkohol – nieodpowiedni dla dzieci i kobiet w ciąży.',
 		ean: '590094241',
 		recenzja: 'Recenzja BadOmena: Z okazji Świąt Bożego Narodzenia producenci słodyczy rozpieszczają nas świątęcznymi wariantami produktów - tym razem mamy Pawełka o smaku piernikowym - całkiem smaczny, - wedlowska mleczna czekolada jest smaczna, choć wydaje się  być lekko przesłodzona, nadzienie też jest słodkie - smakuje jak zwykłe czekoladowe z dodatkiem przypraw piernikowych - połączenie dość ciekawe i udane, choć spodziewałem się czegoś lepszego. Podsumowanie: Niezły smak nadzienia, ale ogólnie baton wydaje się zbyt słodki.  Powinien smakować fanom smaków piernikowych - pozostali mogą odpuścić ten wariant smakowy. Skład dość długi, i niestety niezbyt udany - obecność syropu glukozowego, oleju palmowego oraz bardzo wysoka ilość cukru (ponad 64g na 100g produktu!) zmusza mnie do obniżenia oceny końcowej. Smak: 7,5/10 Skład: 6/10 Ocena końcowa 7/10',
-		kategoria: [1,11]
+		kategoria: [1,11,12]
+	},	
+	{
+		id: 43,
+		nazwa: 'Prince Polo Black',
+		obrazek: 'unknown55.png',
+		opis: 'BATONIK MOCNO CZEKOLADOWY',
+		sklad: 'Składniki: Kruchy kakaowy wafelek z kremem kakaowym (48%) oblany czekoladą (38%). Składniki: cukier, mąka pszenna, olej palmowy, miazga kakaowa, kakao w proszku o obniżonej  zawartości tłuszczu (5%), skrobia pszenna, tłuszcz kakaowy, tłuszcz mleczny, skrobia ziemniaczana, emulgatory (lecytyny sojowe, E476), olej rzepakowy, substancje spulchniające (E503, E500) regulator kwasowości (E524), sól, aromat, odtłuszczone mleko w proszku. Oprócz tłuszczu kakaowego zawiera tłuszcze roślinne. Może zawierać orzechy.',
+		ean: '7622201144586',
+		recenzja: 'Recenzja BadOmena: Nareszcie pojawił się nowy wariant smakowy Prince Polo (od lat był brak nowych smaków). Tym razem mamy odmianę mocno czekoladową. Muszę stwierdzić, że to bardzo dobry wariant! Oby został na długo! (ciężko stwierdzić czy ten smak jest limitowany czy zostanie na dłużej). Podobnie jak w TWIX pierniczkowym, od doskonałej oceny dzieli średni skład (obecność oleju palmowego), choć broni się niezbyt dużą ilością cukru i brakiem shea. Uwaga: Ilość cukru wynosi 36g/100g. SMAK: 10/10 SKŁAD: 8/10 Ocena końcowa: 9/10',
+		kategoria: [1,11,12]
+	},	
+	{
+		id: 44,
+		nazwa: 'Twix Salted Carmel',
+		obrazek: 'twix666.png',
+		opis: 'BATONIK 3Bit o smaku orzechowym',
+		sklad: 'Ciasteczka (26%) oblane słonym karmelem (32%) i mleczną czekoladą (35%) ze szczyptą soli. Składniki:  cukier, syrop glukozowy, mąka pszenna, tłuszcz palmowy, odtłuszczone mleko w proszku, tłuszcz kakaowy, miazga kakaowa, miazga kakaowa, tłuszcz mleczny, laktoza, permeat serwatki (z mleka), sól, kakao o obniżonej zawartości tłuszczu, emulgator (lecytyna sojowa), substancja spulchniająca (E500), ekstrakt z wanilii. (Może zawierać orzech laskowy, migdał, jęczmień, owies)',
+		ean: '5000159528986',
+		recenzja: 'Recenzja BadOmena: Mars coraz częściej dostarcza nowe warianty smakowe swoich produktów. Tym razem mamy Twix o smaku słonego karmelu. O ile jestem fanem zwykej wersji, to ten wariant jest... niewypałem. Uwielbiam słony karmel, ale tu jest słabo - mamy tu zwykły karmel z dodatkiem kryształów soli, która jest bardzo twarda! Spodziewałem się jednolitej masy. Obecnie jest dostępny w limitowanej liczbie w 4 pakach. Skład też niestety nie jest dobry. Uwaga, duża ilość cukru 49g/100g produktu. Ocena: Smak: 5/10, skład 5/10 Ocena końcowa 5/10.',
+		kategoria: [1,11,12]
+	},	{
+		id: 45,
+		nazwa: 'Toffifee Double Chocolate (Podwójna czekolada)',
+		obrazek: 'unknown69.png',
+		opis: 'Toffiefee o ',
+		sklad: 'Orzech laskowy (10%) w karmelu (41%), kremie czekoladowo-orzechowym (37%) i czekoladzie (12%). Składniki: cukier, tłuszcze roślinne (palmowy, shea), orzechy laskowe (12,4%), syrop glukozowy, kakao (6,7%), odtłuszczone mleko w proszku, substancja utrzymująca wilgoć: sorbitole, miazga kakaowa, mleko zagęszczone odtłuszczone, zgęszczona serwatka (z mleka), tłuszcz kakaowy, tłuszcz mleczny, syrop sacharozowy, produkt z serwatki (z mleka), emulgator: lecytyny (soja), sól, aromaty. Może zawierać także migdały, orzeszki ziemne i inne orzechy.',
+		ean: 'Brak informacji',
+		recenzja: 'Recenzja BadOmena: Nowe limitowane wersje znanych produktów są zawsze mile widziane. Dziś mamy Toffifee z podwójną czekoladą. Zwiększona ilość czekolady znacząco zmienia znany smak. Miłe zaskoczenie, udany wariant. Skład niestety nie powala obecność kilku rodzajów cukrów i tłuszczy roślinnych obniża ocenę produktu. Uwaga duża ilość cukru (44,9g/100g). Smak: 9/10, Skład: 6/10 Ocena końcowa: 7/10.',
+		kategoria: [1,11,12]
 	},
 	
 ]
