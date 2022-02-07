@@ -408,7 +408,7 @@ var lista = [
 		id: 45,
 		nazwa: 'Toffifee Double Chocolate (Podwójna czekolada)',
 		obrazek: 'unknown69.png',
-		opis: 'Toffiefee o ',
+		opis: 'Toffiefee o smaku czekoladowym',
 		sklad: 'Orzech laskowy (10%) w karmelu (41%), kremie czekoladowo-orzechowym (37%) i czekoladzie (12%). Składniki: cukier, tłuszcze roślinne (palmowy, shea), orzechy laskowe (12,4%), syrop glukozowy, kakao (6,7%), odtłuszczone mleko w proszku, substancja utrzymująca wilgoć: sorbitole, miazga kakaowa, mleko zagęszczone odtłuszczone, zgęszczona serwatka (z mleka), tłuszcz kakaowy, tłuszcz mleczny, syrop sacharozowy, produkt z serwatki (z mleka), emulgator: lecytyny (soja), sól, aromaty. Może zawierać także migdały, orzeszki ziemne i inne orzechy.',
 		ean: 'Brak informacji',
 		recenzja: 'Recenzja BadOmena: Nowe limitowane wersje znanych produktów są zawsze mile widziane. Dziś mamy Toffifee z podwójną czekoladą. Zwiększona ilość czekolady znacząco zmienia znany smak. Miłe zaskoczenie, udany wariant. Skład niestety nie powala obecność kilku rodzajów cukrów i tłuszczy roślinnych obniża ocenę produktu. Uwaga duża ilość cukru (44,9g/100g). Smak: 9/10, Skład: 6/10 Ocena końcowa: 7/10.',
