@@ -415,7 +415,7 @@ var lista = [
 		kategoria: [1,11,12]
 	},	{
 		id: 46,
-		nazwa: 'Toffifee Double Chocolate (Podwójna czekolada)',
+		nazwa: 'Monster Energy Nitro Super Dry',
 		obrazek: 'monster-energy-nitro.jpg',
 		opis: 'Toffiefee o smaku czekoladowym',
 		sklad: 'Woda gazowana, glukoza, kwas cytrynowy, naturalne aromaty, tauryna, cytrynian sodu, barwniki, ekstrakt z żenszenia, L-karnityna, kofeina, kwas sorbowy, kwas benzoesowy, witamina B3, chlorek sodu, Glukuronolakton, inozytol, ekstrakt z nasion guarany, witamina B6, sukraloza, ryboflawina, maltodekstryna, cyjanokobalamina.',
