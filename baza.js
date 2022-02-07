@@ -413,15 +413,6 @@ var lista = [
 		ean: 'Brak informacji',
 		recenzja: 'Recenzja BadOmena: Nowe limitowane wersje znanych produktów są zawsze mile widziane. Dziś mamy Toffifee z podwójną czekoladą. Zwiększona ilość czekolady znacząco zmienia znany smak. Miłe zaskoczenie, udany wariant. Skład niestety nie powala obecność kilku rodzajów cukrów i tłuszczy roślinnych obniża ocenę produktu. Uwaga duża ilość cukru (44,9g/100g). Smak: 9/10, Skład: 6/10 Ocena końcowa: 7/10.',
 		kategoria: [1,11,12]
-	},	{
-		id: 46,
-		nazwa: 'Monster Energy Nitro Super Dry',
-		obrazek: 'monster-energy-nitro.jpg',
-		opis: 'Napój energetyczny Monster wzbogacony podtlenkiem azotu',
-		sklad: 'Woda gazowana, glukoza, kwas cytrynowy, naturalne aromaty, tauryna, cytrynian sodu, barwniki, ekstrakt z żenszenia, L-karnityna, kofeina, kwas sorbowy, kwas benzoesowy, witamina B3, chlorek sodu, Glukuronolakton, inozytol, ekstrakt z nasion guarany, witamina B6, sukraloza, ryboflawina, maltodekstryna, cyjanokobalamina.',
-		ean: '5060751218920',
-		recenzja: 'Energy Nitro to nowy smak napoju energetycznego Monster, który opanował rynek, od zwykłego napoju tej marki wyróżnia go to, że nasycony jest podtlenkiem azotu co ma nadawać mu gładszą teksturę, w praktyce czuć to gdyż napój nie ma tych uderzających w jamę ustną bąbelków. W smaku nowy Monster przypomina oranżadkę, wiem czy to tylko u mnie ale czuć pewien posmak, ogółem smak taki średni.  Smak: 6/10, Skład: 3/10 Ocena końcowa: 4/10. ',
-		kategoria: [2,12]
 	}
 ]
 
