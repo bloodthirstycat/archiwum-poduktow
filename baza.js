@@ -1,3 +1,4 @@
+location.href = "https://www.facebook.com/archiwumproduktow/";
 var kategorie = Array();
 kategorie[1] = "Słodycze"
 kategorie[2] = "Napoje"
